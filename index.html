@@ -2,14 +2,15 @@
 
 <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+  <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
   <link rel="stylesheet" href="index.css" />
 </head>
 
 <body>
   <div class="container">
-    <div class="home">
+    <div>
       <h3>FC Barcelone</h3>
-      <h3 class="score" id="home-score">0</h3>
+      <h2 class="score" id="home-score">0</h2>
       <div class="points">
         <p onclick="scoreUpdate('home', 1)">+ 1</p>
         <p onclick="scoreUpdate('home', 2)">+ 2</p>
@@ -18,9 +19,9 @@
       <h4 id="home-winner">draw</h4>
     </div>
     <button onclick="Reset()">Reset</button>
-    <div class="guest">
+    <div>
       <h3>Real Madrid</h3>
-      <h3 class="score" id="guest-score">0</h3>
+      <h2 class="score" id="guest-score">0</h2>
       <div class="points">
         <p onclick="scoreUpdate('guest', 1)">+ 1</p>
         <p onclick="scoreUpdate('guest', 2)">+ 2</p>

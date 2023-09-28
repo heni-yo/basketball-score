@@ -1,13 +1,14 @@
 body {
   text-align: center;
   font-family: Cursed Timer ULiL;
-  background: #12493f;
+  background-color: #1b244a;
 }
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
 }
 
 p {
@@ -19,27 +20,29 @@ p {
 
 h3 {
   color: white;
-  font-family: board-title-home;
+  font-family: verdana;
   font-size: 30px;
   margin: 20px 0;
 }
 
-.home {
-  width: 250px;
-  height: 350px;
-  margin-top: 100px;
+h2 {
+  color: white;
+  font-size: 70px;
+  margin: 20px 0;
 }
 
-.guest {
-  width: 250px;
-  height: 350px;
-  margin-top: 100px;
+h4 {
+  font-family: verdana;
+  font-size: 26px;
+  color: #9aabd8;
 }
 
 .score {
   margin: 0 40px;
   padding: 60px;
   background: black;
+  border-radius: 5px;
+  width: 70px;
 }
 
 .points {
@@ -51,9 +54,10 @@ h3 {
 }
 
 button {
-  height: 50px;
-  width: 80px;
-  background: brown;
-  font-family: board-title-home;
+  padding: 30px;
+  background: black;
   font-weight: bolder;
+  border: none;
+  color: #9aabd8;
+  margin-top: 400px;
 }
