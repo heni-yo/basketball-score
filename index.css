@@ -1,59 +1,58 @@
 body {
-    text-align: center;
-    font-family: Cursed Timer ULiL;
-    background: #12493f;
+  text-align: center;
+  font-family: Cursed Timer ULiL;
+  background: #12493f;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-p{
-    border: #9AABD8 solid 2px;
-    color: #9AABD8;
-    padding: 10px;
+p {
+  border: #9aabd8 solid 2px;
+  color: #9aabd8;
+  padding: 10px;
 }
 
-h3{
-    color: white;
-    font-family: board-title-home;
-    font-size: 30px;
-    margin: 20px 0;
+h3 {
+  color: white;
+  font-family: board-title-home;
+  font-size: 30px;
+  margin: 20px 0;
 }
 
-.home{
-    width: 250px;
-    height: 350px;   
-    margin-top: 100px
+.home {
+  width: 250px;
+  height: 350px;
+  margin-top: 100px;
 }
 
-.guest{
-    width: 250px;
-    height: 350px;   
-    margin-top: 100px
+.guest {
+  width: 250px;
+  height: 350px;
+  margin-top: 100px;
 }
 
-.score{
-    margin: 0 40px;
-    padding: 60px;
-    background: black
-    
+.score {
+  margin: 0 40px;
+  padding: 60px;
+  background: black;
 }
 
-.points{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-    margin: 15px 15px;
+.points {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  margin: 15px 15px;
 }
 
-button{
-    height: 50px;
-    width: 80px;
-    background: brown;
-    font-family: board-title-home;
-    font-weight: bolder;
+button {
+  height: 50px;
+  width: 80px;
+  background: brown;
+  font-family: board-title-home;
+  font-weight: bolder;
 }
